@@ -16,13 +16,13 @@ $port = "3306";
 
 
 # Application settings
-$appname = "emailrequestsapp";
+$appname = "custom_email_requests_app";
 $author = "Kepha Okari";
 $email = "kepha.okari@olivetreemobile.co";
-$description = "Processes bulk sms batch request logged in the batch_request table by spliting phone number list and queueing in batch_outbound queue.";
+$description = "Pick the email request logged in outgoing_emails table.";
 $dir = dirname(__FILE__);
 $executable = "requests.php";
-$logfile = "/var/log/applications/emailRequestsApp.log";
+$logfile = "/var/log/applications/customEmailRequestsApp.log";
 
 
 ## DO NOT EDIT BELOW THIS LINE ##
